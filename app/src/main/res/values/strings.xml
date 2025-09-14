@@ -14,4 +14,13 @@
         little milk foam poured over it. Serve in a latte glass or a coffee cup. Flavored syrup can be added.
     </string>
     <string name="coffee_list">Coffee List</string>
+    <string name="cappuccino_title">CAPPUCCINO</string>
+    <string name="cappuccino_desc">An espresso-based coffee drink prepared with steamed milk foam, often topped with cinnamon.</string>
+    <string name="macchiato_title">MACCHIATO</string>
+    <string name="macchiato_desc">An espresso coffee drink with a small amount of milk, usually foamed, meaning "stained" or "marked" in Italian.</string>
+    <string name="mocha_title">MOCHA</string>
+    <string name="mocha_desc">A chocolate-flavoured variant of a caffè latte, typically containing chocolate syrup or powder.</string>
+    <string name="espresso_title">ESPRESSO</string>
+    <string name="espresso_desc">A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans.</string>
+    <string name="back_btn">Back</string>
 </resources>

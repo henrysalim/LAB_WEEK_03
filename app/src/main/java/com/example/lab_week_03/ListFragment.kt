@@ -31,14 +31,18 @@ class ListFragment : Fragment() {
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
             view.findViewById(R.id.latte),
+            view.findViewById(R.id.cappuccino),
+            view.findViewById(R.id.macchiato),
+            view.findViewById(R.id.mocha),
+            view.findViewById(R.id.espresso),
         )
 
         coffeeList.forEach { coffee ->
-            val fragmentBUndle = Bundle()
-            fragmentBUndle.putInt(COFFEE_ID, coffee.id)
+            val fragmentBundle = Bundle()
+            fragmentBundle.putInt(COFFEE_ID, coffee.id)
             coffee.setOnClickListener {
                 coffee.findNavController().navigate(
-                    R.id.coffee_id_action, fragmentBUndle
+                    R.id.coffee_id_action, fragmentBundle
                 )
             }
         }
